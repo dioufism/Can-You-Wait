@@ -13,4 +13,6 @@ Can you wait is a simple app packed with best practices iOS programming concepts
 - Error handling
 - Unit Test
 
-![ezgif com-video-to-gif](https://github.com/dioufism/Can-You-Wait/assets/38227064/2dba9ae8-bcad-4897-9c41-e3d0717907d5)
+
+#Demo
+<img src="https://github.com/dioufism/Can-You-Wait/assets/38227064/2dba9ae8-bcad-4897-9c41-e3d0717907d5" width="300" height="500">
