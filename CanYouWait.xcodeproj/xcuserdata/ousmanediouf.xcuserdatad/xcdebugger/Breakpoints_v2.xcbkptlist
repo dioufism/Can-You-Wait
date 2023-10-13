@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "44645D35-D10E-4FE6-9E5E-99236B176B71"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "42DB8D02-59F8-438B-BE4E-7A0513CDE3EC"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feature/ValidatePrimeNumbers/PrimeService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "51"
+            endingLineNumber = "51"
+            landmarkName = "testPrime(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "test_checkNumber_success()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 31a7146cd75bcca9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "619">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 61a1c754a5b3255f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 776057440eb88cab"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "53">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 31a7146cd75bcc57"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 61a1c754a5b325a1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 776057440eb88c55"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 31a7146cd75bcc76"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "510">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 61a1c754a5b32580"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(2) await resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "34">
+               </Location>
+               <Location
+                  uuid = "B3BF2067-9B7C-41E4-99A2-46D890A60042 - 776057440eb88c74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ChickFilA_takeHomeTestTests.PrimeNumberCheckViewModelTests.test_checkNumber_success() async -&gt; ()"
+                  moduleName = "ChickFilA_takeHomeTestTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/ousmanediouf/Desktop/MyPersonalProjects/IOS%20Projects/ChickFilA_takeHomeTest/ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9C570EE4-B97D-4E3C-8F57-03A1F01896C6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "PrimeNumberCheckViewModelTests"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C7A50FA-9586-4917-A0CF-514264D8E192"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Feature/ValidatePrimeNumbers/ViewModel/PrimeNumberCheckViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "104"
+            endingLineNumber = "104"
+            landmarkName = "toInteger(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6453AD9-FEF7-4844-95A5-AE1E26A59FAB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ChickFilA_takeHomeTestTests/ChickFilA_takeHomeTestTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "test_checkNumber_success()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

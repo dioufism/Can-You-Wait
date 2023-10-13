@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DA91D43F2AB8D70A00D3980F /* ChickFilA_takeHomeTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D43E2AB8D70A00D3980F /* ChickFilA_takeHomeTestApp.swift */; };
+		DA2A3A272AC221FE0030773E /* MockPrimeNumberService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2A3A262AC221FE0030773E /* MockPrimeNumberService.swift */; };
+		DA91D43F2AB8D70A00D3980F /* CanYouWaitTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D43E2AB8D70A00D3980F /* CanYouWaitTestApp.swift */; };
 		DA91D4412AB8D70A00D3980F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D4402AB8D70A00D3980F /* ContentView.swift */; };
 		DA91D4432AB8D70D00D3980F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA91D4422AB8D70D00D3980F /* Assets.xcassets */; };
 		DA91D4462AB8D70D00D3980F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA91D4452AB8D70D00D3980F /* Preview Assets.xcassets */; };
-		DA91D4502AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D44F2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.swift */; };
-		DA91D45A2AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D4592AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.swift */; };
-		DA91D45C2AB8D70E00D3980F /* ChickFilA_takeHomeTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D45B2AB8D70E00D3980F /* ChickFilA_takeHomeTestUITestsLaunchTests.swift */; };
+		DA91D4502AB8D70E00D3980F /* CanYouWaitTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D44F2AB8D70E00D3980F /* CanYouWaitTestTests.swift */; };
+		DA91D46E2AB8D92300D3980F /* PrimeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D46D2AB8D92300D3980F /* PrimeService.swift */; };
+		DA91D4702AB8E3D700D3980F /* PrimeNumberCheckViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D46F2AB8E3D700D3980F /* PrimeNumberCheckViewModel.swift */; };
+		DA91D4722AB94BA800D3980F /* PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA91D4712AB94BA800D3980F /* PrimeNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,16 +36,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		DA91D43B2AB8D70A00D3980F /* ChickFilA_takeHomeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickFilA_takeHomeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA91D43E2AB8D70A00D3980F /* ChickFilA_takeHomeTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickFilA_takeHomeTestApp.swift; sourceTree = "<group>"; };
+		DA2A3A262AC221FE0030773E /* MockPrimeNumberService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockPrimeNumberService.swift; sourceTree = "<group>"; };
+		DA91D43B2AB8D70A00D3980F /* CanYouWait.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CanYouWait.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA91D43E2AB8D70A00D3980F /* CanYouWaitTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanYouWaitTestApp.swift; sourceTree = "<group>"; };
 		DA91D4402AB8D70A00D3980F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DA91D4422AB8D70D00D3980F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA91D4452AB8D70D00D3980F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DA91D44B2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickFilA_takeHomeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA91D44F2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickFilA_takeHomeTestTests.swift; sourceTree = "<group>"; };
-		DA91D4552AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChickFilA_takeHomeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		DA91D4592AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickFilA_takeHomeTestUITests.swift; sourceTree = "<group>"; };
-		DA91D45B2AB8D70E00D3980F /* ChickFilA_takeHomeTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChickFilA_takeHomeTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DA91D44B2AB8D70E00D3980F /* CanYouWaitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanYouWaitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA91D44F2AB8D70E00D3980F /* CanYouWaitTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanYouWaitTestTests.swift; sourceTree = "<group>"; };
+		DA91D4552AB8D70E00D3980F /* CanYouWaitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanYouWaitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA91D46D2AB8D92300D3980F /* PrimeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeService.swift; sourceTree = "<group>"; };
+		DA91D46F2AB8E3D700D3980F /* PrimeNumberCheckViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumberCheckViewModel.swift; sourceTree = "<group>"; };
+		DA91D4712AB94BA800D3980F /* PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimeNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,9 +78,10 @@
 		DA91D4322AB8D70A00D3980F = {
 			isa = PBXGroup;
 			children = (
-				DA91D43D2AB8D70A00D3980F /* ChickFilA_takeHomeTest */,
-				DA91D44E2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests */,
-				DA91D4582AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests */,
+				DA91D4682AB8D7FB00D3980F /* Feature */,
+				DA91D43D2AB8D70A00D3980F /* CanYouWait */,
+				DA91D44E2AB8D70E00D3980F /* CanYouWaitTestTests */,
+				DA91D4582AB8D70E00D3980F /* CanYouWaitTestUITests */,
 				DA91D43C2AB8D70A00D3980F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,22 +89,22 @@
 		DA91D43C2AB8D70A00D3980F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				DA91D43B2AB8D70A00D3980F /* ChickFilA_takeHomeTest.app */,
-				DA91D44B2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.xctest */,
-				DA91D4552AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.xctest */,
+				DA91D43B2AB8D70A00D3980F /* CanYouWait.app */,
+				DA91D44B2AB8D70E00D3980F /* CanYouWaitTests.xctest */,
+				DA91D4552AB8D70E00D3980F /* CanYouWaitUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DA91D43D2AB8D70A00D3980F /* ChickFilA_takeHomeTest */ = {
+		DA91D43D2AB8D70A00D3980F /* CanYouWait */ = {
 			isa = PBXGroup;
 			children = (
-				DA91D43E2AB8D70A00D3980F /* ChickFilA_takeHomeTestApp.swift */,
+				DA91D43E2AB8D70A00D3980F /* CanYouWaitTestApp.swift */,
 				DA91D4402AB8D70A00D3980F /* ContentView.swift */,
 				DA91D4422AB8D70D00D3980F /* Assets.xcassets */,
 				DA91D4442AB8D70D00D3980F /* Preview Content */,
 			);
-			path = ChickFilA_takeHomeTest;
+			path = CanYouWait;
 			sourceTree = "<group>";
 		};
 		DA91D4442AB8D70D00D3980F /* Preview Content */ = {
@@ -110,29 +115,70 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		DA91D44E2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests */ = {
+		DA91D44E2AB8D70E00D3980F /* CanYouWaitTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				DA91D44F2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.swift */,
+				DA91D44F2AB8D70E00D3980F /* CanYouWaitTestTests.swift */,
+				DA2A3A262AC221FE0030773E /* MockPrimeNumberService.swift */,
 			);
-			path = ChickFilA_takeHomeTestTests;
+			path = CanYouWaitTestTests;
 			sourceTree = "<group>";
 		};
-		DA91D4582AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests */ = {
+		DA91D4582AB8D70E00D3980F /* CanYouWaitTestUITests */ = {
 			isa = PBXGroup;
 			children = (
-				DA91D4592AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.swift */,
-				DA91D45B2AB8D70E00D3980F /* ChickFilA_takeHomeTestUITestsLaunchTests.swift */,
 			);
-			path = ChickFilA_takeHomeTestUITests;
+			path = CanYouWaitTestUITests;
+			sourceTree = "<group>";
+		};
+		DA91D4682AB8D7FB00D3980F /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				DA91D4692AB8D80400D3980F /* ValidatePrimeNumbers */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		DA91D4692AB8D80400D3980F /* ValidatePrimeNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				DA91D46C2AB8D81E00D3980F /* View */,
+				DA91D46B2AB8D81600D3980F /* ViewModel */,
+				DA91D46A2AB8D81000D3980F /* Model */,
+				DA91D46D2AB8D92300D3980F /* PrimeService.swift */,
+			);
+			path = ValidatePrimeNumbers;
+			sourceTree = "<group>";
+		};
+		DA91D46A2AB8D81000D3980F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA91D4712AB94BA800D3980F /* PrimeNumber.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA91D46B2AB8D81600D3980F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA91D46F2AB8E3D700D3980F /* PrimeNumberCheckViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA91D46C2AB8D81E00D3980F /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		DA91D43A2AB8D70A00D3980F /* ChickFilA_takeHomeTest */ = {
+		DA91D43A2AB8D70A00D3980F /* CanYouWait */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA91D45F2AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "ChickFilA_takeHomeTest" */;
+			buildConfigurationList = DA91D45F2AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "CanYouWait" */;
 			buildPhases = (
 				DA91D4372AB8D70A00D3980F /* Sources */,
 				DA91D4382AB8D70A00D3980F /* Frameworks */,
@@ -142,14 +188,14 @@
 			);
 			dependencies = (
 			);
-			name = ChickFilA_takeHomeTest;
+			name = CanYouWait;
 			productName = ChickFilA_takeHomeTest;
-			productReference = DA91D43B2AB8D70A00D3980F /* ChickFilA_takeHomeTest.app */;
+			productReference = DA91D43B2AB8D70A00D3980F /* CanYouWait.app */;
 			productType = "com.apple.product-type.application";
 		};
-		DA91D44A2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests */ = {
+		DA91D44A2AB8D70E00D3980F /* CanYouWaitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA91D4622AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "ChickFilA_takeHomeTestTests" */;
+			buildConfigurationList = DA91D4622AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "CanYouWaitTests" */;
 			buildPhases = (
 				DA91D4472AB8D70E00D3980F /* Sources */,
 				DA91D4482AB8D70E00D3980F /* Frameworks */,
@@ -160,14 +206,14 @@
 			dependencies = (
 				DA91D44D2AB8D70E00D3980F /* PBXTargetDependency */,
 			);
-			name = ChickFilA_takeHomeTestTests;
+			name = CanYouWaitTests;
 			productName = ChickFilA_takeHomeTestTests;
-			productReference = DA91D44B2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.xctest */;
+			productReference = DA91D44B2AB8D70E00D3980F /* CanYouWaitTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		DA91D4542AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests */ = {
+		DA91D4542AB8D70E00D3980F /* CanYouWaitUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DA91D4652AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "ChickFilA_takeHomeTestUITests" */;
+			buildConfigurationList = DA91D4652AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "CanYouWaitUITests" */;
 			buildPhases = (
 				DA91D4512AB8D70E00D3980F /* Sources */,
 				DA91D4522AB8D70E00D3980F /* Frameworks */,
@@ -178,9 +224,9 @@
 			dependencies = (
 				DA91D4572AB8D70E00D3980F /* PBXTargetDependency */,
 			);
-			name = ChickFilA_takeHomeTestUITests;
+			name = CanYouWaitUITests;
 			productName = ChickFilA_takeHomeTestUITests;
-			productReference = DA91D4552AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.xctest */;
+			productReference = DA91D4552AB8D70E00D3980F /* CanYouWaitUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +252,7 @@
 					};
 				};
 			};
-			buildConfigurationList = DA91D4362AB8D70A00D3980F /* Build configuration list for PBXProject "ChickFilA_takeHomeTest" */;
+			buildConfigurationList = DA91D4362AB8D70A00D3980F /* Build configuration list for PBXProject "CanYouWait" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -219,9 +265,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				DA91D43A2AB8D70A00D3980F /* ChickFilA_takeHomeTest */,
-				DA91D44A2AB8D70E00D3980F /* ChickFilA_takeHomeTestTests */,
-				DA91D4542AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests */,
+				DA91D43A2AB8D70A00D3980F /* CanYouWait */,
+				DA91D44A2AB8D70E00D3980F /* CanYouWaitTests */,
+				DA91D4542AB8D70E00D3980F /* CanYouWaitUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,7 +304,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA91D4412AB8D70A00D3980F /* ContentView.swift in Sources */,
-				DA91D43F2AB8D70A00D3980F /* ChickFilA_takeHomeTestApp.swift in Sources */,
+				DA91D46E2AB8D92300D3980F /* PrimeService.swift in Sources */,
+				DA91D4722AB94BA800D3980F /* PrimeNumber.swift in Sources */,
+				DA91D4702AB8E3D700D3980F /* PrimeNumberCheckViewModel.swift in Sources */,
+				DA91D43F2AB8D70A00D3980F /* CanYouWaitTestApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +315,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA91D4502AB8D70E00D3980F /* ChickFilA_takeHomeTestTests.swift in Sources */,
+				DA2A3A272AC221FE0030773E /* MockPrimeNumberService.swift in Sources */,
+				DA91D4502AB8D70E00D3980F /* CanYouWaitTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +324,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA91D45A2AB8D70E00D3980F /* ChickFilA_takeHomeTestUITests.swift in Sources */,
-				DA91D45C2AB8D70E00D3980F /* ChickFilA_takeHomeTestUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,12 +332,12 @@
 /* Begin PBXTargetDependency section */
 		DA91D44D2AB8D70E00D3980F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA91D43A2AB8D70A00D3980F /* ChickFilA_takeHomeTest */;
+			target = DA91D43A2AB8D70A00D3980F /* CanYouWait */;
 			targetProxy = DA91D44C2AB8D70E00D3980F /* PBXContainerItemProxy */;
 		};
 		DA91D4572AB8D70E00D3980F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = DA91D43A2AB8D70A00D3980F /* ChickFilA_takeHomeTest */;
+			target = DA91D43A2AB8D70A00D3980F /* CanYouWait */;
 			targetProxy = DA91D4562AB8D70E00D3980F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -416,7 +464,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChickFilA_takeHomeTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CanYouWait\"";
 				DEVELOPMENT_TEAM = GZX884X8HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -430,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.ChickFilA-takeHomeTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.CanYouWait";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -445,7 +493,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ChickFilA_takeHomeTest/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"CanYouWait\"";
 				DEVELOPMENT_TEAM = GZX884X8HC;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -459,7 +507,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.ChickFilA-takeHomeTest";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.CanYouWait";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -483,7 +531,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickFilA_takeHomeTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChickFilA_takeHomeTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanYouWait.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CanYouWait";
 			};
 			name = Debug;
 		};
@@ -503,7 +551,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChickFilA_takeHomeTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ChickFilA_takeHomeTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CanYouWait.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CanYouWait";
 			};
 			name = Release;
 		};
@@ -516,7 +564,7 @@
 				DEVELOPMENT_TEAM = GZX884X8HC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.ChickFilA-takeHomeTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.CanYouWait";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -534,7 +582,7 @@
 				DEVELOPMENT_TEAM = GZX884X8HC;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.ChickFilA-takeHomeTestUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = "Diouf-Ismael.CanYouWait";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
@@ -546,7 +594,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		DA91D4362AB8D70A00D3980F /* Build configuration list for PBXProject "ChickFilA_takeHomeTest" */ = {
+		DA91D4362AB8D70A00D3980F /* Build configuration list for PBXProject "CanYouWait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA91D45D2AB8D70E00D3980F /* Debug */,
@@ -555,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA91D45F2AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "ChickFilA_takeHomeTest" */ = {
+		DA91D45F2AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "CanYouWait" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA91D4602AB8D70E00D3980F /* Debug */,
@@ -564,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA91D4622AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "ChickFilA_takeHomeTestTests" */ = {
+		DA91D4622AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "CanYouWaitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA91D4632AB8D70E00D3980F /* Debug */,
@@ -573,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DA91D4652AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "ChickFilA_takeHomeTestUITests" */ = {
+		DA91D4652AB8D70E00D3980F /* Build configuration list for PBXNativeTarget "CanYouWaitUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				DA91D4662AB8D70E00D3980F /* Debug */,
